@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Income Expense Calculator</h1>
+        <form id="entryForm">
+            <input type="text" id="description" placeholder="Description">
+            <input type="number" id="amount" placeholder="Amount">
+            <select id="type">
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+            </select>
+            <button type="submit">Add Entry</button>
+        </form>
+        <div id="entriesContainer"></div>
+        <div id="totalDisplay">Total: $0</div>
+    </div>
+    <script src="./script.js"></script> 
+</body>
+</html>
